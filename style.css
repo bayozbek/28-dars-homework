@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    margin-left: 50px;
+    color: #444;
+}
+
+header i {
+    margin-left: 1100px;
+}
+
+.box {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.box .item {
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100%;
+    background-image: url(https://waringsbakery.co.uk/wp-content/uploads/2023/10/bread-new-image.jpg);
+}
+
+.box .link {
+    width: 50%;
+    height: 100%;
+}
+
+.box .link > h1 {
+    font-size: 50px;
+    padding: 150px 0 20px 50px;
+}
+
+.box .link p {
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.box .link .p {
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.box button {
+    padding: 12px 54px;
+    margin-left: 50px;
+    border-radius: 20px;
+    border: none;
+    background-color: #e2781a;
+    font-weight: bold;
+    color: white;
+}
+
+.box button:hover {
+    background-color: transparent;
+    font-weight: bold;
+    color: #e2781a;
+}
+
+.bakery {
+    width: 100%;
+    height: 250vh;
+    background-color: #e2781a;
+}
+
+.bakery > h1{
+   font-size: 60px;
+   text-align: center;
+   padding-top: 60px;
+   color: #fff;
+}
+
+.bakery > p{
+    text-align: center;
+    color: white;
+    margin-top: 25px;
+}
+
+
+.bakery .item_link {
+    width: 72%;
+    height: 72%;
+    /* background-color: #fff; */
+    margin-top: 20px;
+    margin-left: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.bakery .item_link .main {
+    width: 24%;
+    height: 400px;
+    background-color: #fff;
+}
+
+.bakery .item_link .main1 {
+    width: 24%;
+    height: 400px;
+    background-color: #fff;
+    margin-left: 100px;
+}
+
+.bakery .item_link .main1 img {
+    width: 100%;
+    height: 50%;
+}
+
+.bakery .item_link .main1 > h1{
+    padding-top: 20px;
+    text-align: center;
+    font-weight: normal;
+}
+
+
+.bakery .item_link .main1 > p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.bakery .item_link .main1 > h2 {
+    text-align: center;
+    font-size: 31px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #e2781a;
+}
+
+
+.bakery .item_link .main img{
+    width: 100%;
+    height: 50%;
+}
+
+
+.bakery .item_link .main > h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bakery .item_link .main > p{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.bakery .item_link .main > .h2{
+   text-align: center;
+   margin-top: 20px;
+   font-size: 30px;
+   color: #e2781a;
+}
+
+.bakery .item_link .main1 > h2 {
+    margin-top: 20px;
+    color: #000;
+}
+
+.bakery .item_link .main1 > .h2 {
+    text-align: center;
+    font-size: 31px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #e2781a;
+}
+
+.bakery .item_link .main1 .mause{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.bootstrap {
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/3bd344704401542985639c54/vbvbvb-min.jpg);
+}
+
+.bootstrap > h1 {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 190px;
+    color: white;
+}
+
+.bootstrap > p {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 24px;
+    color:white;
+}
+
+
+.bootstrap .container {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.bootstrap .container > button{
+    padding: 20px 30px;
+    background-color: #e2781a;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 20px;
+    border: none;
+}
+
+
+.bootstrap .container > .button{
+    padding: 15px 30px;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 20px;
+    border: 3px solid #fff;
+}
+
+.white {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+
+.white .mac {
+    width: 400px;
+    /* background-color: red; */
+    height: 200px;
+    display: flex;
+}
+
+.white .mac .windows{
+    width: 40%;
+    /* background-color: #e2781a; */
+    height: 100%;
+}
+
+
+.white .mac .windows > img{
+    width: 100%;
+    height: 40%;
+    padding-top: 20px;
+}
+
+.white .mac  > h2{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.candy {
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/7498296e4db8581c94ab1c35/uyy.jpg);
+}
+
+.candy > h1 {
+    text-align: center;
+    padding-top: 100px;
+    color: #fff;
+    font-size: 60px;
+}
+
+.candy .fronted {
+    width: 400px;
+    height: 400px;
+    background-color: #fff;
+    margin-top: 30px;
+    flex-direction: column;
+}
+
+.candy .bekend{
+    width: 100%;
+    height: 300px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.candy .fronted > h2{
+    padding: 20px;
+}
+
+.candy .fronted > p{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.two-pice {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+}
+
+.two-pice .alone{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #e2781a;
+    /* justify-content: center; */
+}
+
+.two-pice .three {
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/681/930/507/bread-rye-bread-baked-goods-baguette-wallpaper-preview.jpg);
+}
+
+.two-pice .alone > h1 {
+    left: 50%;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.two-pice .alone > p {
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.two-pice .alone > h2 {
+    left: 50%;
+    color: #ffffff6f;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: #000;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
